@@ -12,4 +12,10 @@ We conduct an expirement in order to gather data about model ensembles created b
 
 ---
 
+---
+**CONTENTS**
+
+This repository is a collection of functions used throughout to thesis.  The **run_autosklearn_reg** and **run_autogluon** functions work directly with both frameworks in order to fit their best ensembles. **run_regression** is used to run the mentioned functions across a certain parameter grid in order to compare the different results. Finally we use **extract_data** to gather the sepicifics of the trained emsebles into an elegant format. 
+
+---
 
