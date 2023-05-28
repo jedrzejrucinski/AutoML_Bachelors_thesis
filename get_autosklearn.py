@@ -1,4 +1,4 @@
-def get_autosklearn_reg(X,y, ensembling_size, per_time_budget, overall_budget_time, data_id,
+def get_autosklearn(X,y, ensembling_size, per_time_budget, overall_budget_time, data_id,
                      model_set = None):
   
     model = autosklearn.regression.AutoSklearnRegressor(
